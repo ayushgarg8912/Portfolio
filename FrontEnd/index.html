@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Ayush Garg | Java Backend Developer</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sticky Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#">Ayush<span>.dev</span></a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#tools" class="nav-link">Tools</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#journey" class="nav-link">Journey</a></li>
+                    <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-glow">✨ Open for opportunities</span>
+                    </div>
+                    <h1>Hi, I'm Ayush Garg</h1>
+                    <div class="typing-wrapper">
+                        <span class="static-text">I'm a </span>
+                        <span class="typed-text" id="typed-text">Java Backend</span>
+                        <span class="cursor" id="cursor">|</span>
+                    </div>
+                    <p class="hero-desc">Building robust, scalable backend systems with Java & Spring Boot. Passionate about clean architecture, REST APIs, and solving real-world challenges as a fresher ready to contribute.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary"><i class="fas fa-code-branch"></i> View Projects</a>
+                        <a href="ayush.pdf" class="btn btn-outline" id="resumeBtn"download>Download Resume</a>
+                        <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Contact Me</a>
+                    </div>
+                    <!-- <div class="tech-stack-badges">
+                        <span>Java</span><span>Spring Boot</span><span>Hibernate</span><span>MySQL</span><span>REST APIs</span><span>Git</span>
+                    </div> -->
+                </div>
+
+                 
+
+               <div class="hero-visual">
+    <img src="ayush.jpeg" alt="Ayush Garg" class="profile-image">
+</div>
+            <div class="shape-bg"></div>
+             
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>I'm a detail-oriented Java Backend Developer with expertise in building secure, high-performance web applications. My core stack includes <strong>Java, Spring Boot, Hibernate, REST APIs, and MySQL</strong>. As a fresher, I've dedicated over 500+ hours building projects, studying system design, and mastering backend architecture.</p>
+                        <p>I thrive in collaborative environments, constantly learning modern backend paradigms, and I'm eager to bring my problem-solving energy to a professional engineering team.</p>
+                        <div class="personality-traits">
+                            <span><i class="fas fa-bolt"></i> Quick Learner</span>
+                            <span><i class="fas fa-puzzle-piece"></i> Problem Solver</span>
+                            <span><i class="fas fa-users"></i> Team Player</span>
+                            <span><i class="fas fa-heart"></i> Passionate Coder</span>
+                        </div>
+                    </div>
+                    <div class="timeline-journey">
+                        <h3><i class="fas fa-graduation-cap"></i> Learning Path</h3>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>2024 - 2026</h4>
+                                <p>Masters Of Computer Application (MCA) <br> <span>Agra public college of technology and management</span> .</p>
+                            </div>
+                        </div>
+                        <!-- <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>2024 (Certifications)</h4>
+                                <p>Spring Framework 6 & Spring Boot 3, REST APIs, Microservices fundamentals (Udemy, Coursera).</p>
+                            </div>
+                        </div> -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>2025 & Beyond</h4>
+                                <p>Actively seeking backend developer roles to deliver scalable solutions and grow with innovative teams.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section with Progress Bars -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Technical Arsenal</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="skills-grid" id="skillsGrid">
+                    <!-- skills dynamically via JS or static with progress data -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Software / Tools Section -->
+        <section id="tools" class="tools">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Dev Environment & Tools</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="tools-grid">
+                    <div class="tool-card"><i class="fab fa-java"></i><span>IntelliJ IDEA</span></div>
+                    <div class="tool-card"><i class="fas fa-code"></i><span>VS Code</span></div>
+                    <div class="tool-card"><i class="fab fa-eclipse"></i><span>Eclipse IDE</span></div>
+                    <div class="tool-card"><i class="fas fa-flask"></i><span>Postman</span></div>
+                    <div class="tool-card"><i class="fas fa-database"></i><span>MySQL Workbench</span></div>
+                    <div class="tool-card"><i class="fab fa-github"></i><span>GitHub</span></div>
+                    <div class="tool-card"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Signature Projects</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-shopping-cart"></i><i class="fas fa-server"></i></div>
+                        <h3>E-Commerce Backend</h3>
+                        <p>Full backend system with authentication, product management, cart, orders & payment simulation. JWT & role-based access.</p>
+                        <div class="tech-badges">
+                            <span>Java</span><span>Spring Boot</span><span>Hibernate</span><span>MySQL</span><span>JWT</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ayushgarg8912/Spring-Ecommerce-Backend-Project.git" class="btn-icon"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn-icon demo"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-file-alt"></i><i class="fas fa-stopwatch"></i></div>
+                        <h3>Online Examination System</h3>
+                        <p>Web-based exam platform: user login, question bank, timed tests, automatic result generation & admin dashboard.</p>
+                        <div class="tech-badges">
+                            <span>Java</span><span>Spring MVC</span><span>JSP</span><span>MySQL</span><span>Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ayushgarg8912/Online-examination-system.git" class="btn-icon"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn-icon demo"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-university"></i><i class="fas fa-exchange-alt"></i></div>
+                        <h3>Bank Management System</h3>
+                        <p>GUI application for account handling, deposits/withdrawals, fund transfer and transaction history.</p>
+                        <div class="tech-badges">
+                            <span>Java</span><span>JDBC</span><span>MySQL</span><span>OOP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-icon"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn-icon demo"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience / Learning Journey -->
+        <section id="journey" class="journey">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Learning & Growth Journey</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="journey-grid">
+                    <div class="journey-card"><i class="fas fa-book-open"></i><h3>Self-Learning Discipline</h3><p>300+ hours of hands-on coding, Spring Boot microservices, design patterns, and backend architecture exploration.</p></div>
+                    <div class="journey-card"><i class="fas fa-rocket"></i><h3>Projects</h3><p>Built production-grade backend applications focusing on security, scalability, and API documentation.</p></div>
+                    <div class="journey-card"><i class="fas fa-chart-line"></i><h3>Continuous Improvement</h3><p>contributions to open-source, code reviews, and Learning .</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements / Stats -->
+        <!-- <section id="achievements" class="achievements">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Core Concept</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card"><i class="fas fa-Data-strutures"></i><h3 class="counter"></h3><p> <strong>Data Structures and Algorithms</strong> </p></div>
+                    <div class="stat-card"><i class="fas fa-microchip"></i><h3 class="counter" data-target="12">0</h3><p>Technologies Mastered</p></div>
+                    <div class="stat-card"><i class="fas fa-hourglass-half"></i><h3 class="counter" data-target="300">0</h3><p>Coding Hours</p></div>
+                    <div class="stat-card"><i class="fas fa-plug"></i><h3 class="counter" data-target="15">0</h3><p>Backend APIs Built</p></div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Social Links -->
+        <section id="social">
+            <div class="section-header"><h2>Connect With Me</h2></div>
+            <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+                <a href="https://www.linkedin.com/in/ayushgarg7/" target="_blank" class="glass-card" style="padding: 1rem 1.5rem; text-decoration: none; color:#4b3ad9;"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/ayushgarg8912" target="_blank" class="glass-card" style="padding: 1rem 1.5rem; text-decoration: none; color:#4b3ad9;"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.instagram.com/ayushgarg00?igsh=MWxlZnF2cXhvdDk5ag==" target="_blank" class="glass-card" style="padding: 1rem 1.5rem; text-decoration: none; color:#4b3ad9;"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="mailto:ayushgarg8912@gmail.com" class="glass-card" style="padding: 1rem 1.5rem; text-decoration: none; color:#4b3ad9;"><i class="fas fa-envelope"></i> ayushgarg8912@gmail.com</a>
+                <!-- <a href="#" class="glass-card" style="padding: 1rem 1.5rem; text-decoration: none; color:white;"><i class="fas fa-code"></i> LeetCode</a> -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Let’s Connect</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <div class="info-item"><i class="fas fa-envelope"></i> <span>ayushgarg8912@gmail.com</span></div>
+                        <div class="info-item"><i class="fab fa-linkedin"></i> <span>linkedin.com/in/ayushgarg7</span></div>
+                        <div class="info-item"><i class="fab fa-github"></i> <span>github.com/ayushgarg8912</span></div>
+                        <div class="info-item"><i class="fas fa-map-marker-alt"></i> <span>Agra, India</span></div>
+                    </div>
+                    <form id="contactForm" class="contact-form">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Email Address" required>
+                        <textarea rows="5" id="message" placeholder="Your Message..." required></textarea>
+                        <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Ayush<span>.dev</span></div>
+                <div class="social-links">
+                    <a href="https://github.com/ayushgarg8912"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ayushgarg7/"><i class="fab fa-linkedin-in"></i></a>
+                    <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                    <a href=""mailto:ayushgarg8912@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+                <p class="copyright">© 2025 Ayush Garg | Java Backend Developer Portfolio</p>
+            </div>
+        </div>
+        <button id="backToTop" class="back-to-top"><i class="fas fa-arrow-up"></i></button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
